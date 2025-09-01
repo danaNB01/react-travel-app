@@ -1,12 +1,44 @@
-# React + Vite
+# ✈️ Travel Booking React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application for searching and booking travel packages. This project demonstrates form handling, state management, routing with React Router, and conditional rendering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Search travel packages by destination and date.
+- Filter and display available packages.
+- Book a selected package and calculate total price based on the number of travelers.
+- Multi-page navigation using React Router:
+  - Home Page
+  - Packages Page
+  - Booking Page
+  - Confirmation Page
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js (functional components & hooks)
+- **Routing:** React Router
+- **Styling:** CSS
+- **Data:** Local JSON file (mock database)
+
+---
+
+## ✨ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/react-travel-app.git
+```
+
+2. Install dependencies:
+```bashnpm start
+npm install
+```
+
+3. Start the development server:
+```bashnpm start
+npm start
+```
